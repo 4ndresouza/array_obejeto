@@ -28,3 +28,5 @@ console.log(pessoa)
 console.log(pessoa.dataNacimento);
 console.log(PermissionStatus.endereco)
 console.log(pessoa.contato)
+// ao chamar uma propriedade que contém uma função, deve se colocar os parênteses
+console.log(pessoa.adicionar())
